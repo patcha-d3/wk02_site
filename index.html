@@ -19,169 +19,316 @@
       <link rel="apple-touch-icon" href="icon.png">
 </head>
 
-<body>
+<body class="page page--home">
+  <header class="page__header">
+      <div class="logo">
+        <span class="logo__text">Metrolics</span>
+        <img src="/" alt="Metrolics Logo" class="logo__icon">
+      </div>
 
-  <!-- Header -->
-    <header>
-        <nav>
-                <img src="/logo.png" alt="Logo" width="48px">
-                <a href="/">Home</a>
-                <a href="/">Portfolio</a>
-                <a href="/">Blog</a>
-                <a href="/">Quo Vadis?</a>
-                <a href="/">Let's chat</a>
-        </nav>
-    </header>
+      <nav class="navbar">
+        <ul class="menu">
+
+          <li class="menu__item menu__item--home">
+            <a href="#" class="link__home">
+              <span class="menu__text--home">Home</span>
+            </a> 
+          </li>
+
+          <li class="menu__item menu__item--portfolio">
+            <a href="#" class="link__portfolio">
+              <span class="menu__text--portfolio">Portfolio</span>
+            </a> 
+          </li>
+
+          <li class="menu__item menu__item--blog">
+            <a href="#" class="link__blog">
+              <span class="menu__text--blog">Blog</span>
+            </a> 
+          </li>
+
+          <li class="menu__item menu__item--quovadis">
+            <a href="#" class="link__quovadis">
+              <span class="menu__text--quovadis">Quo Vadis?</span>
+            </a> 
+          </li>
+
+          <li class="menu__item menu__item--chat">
+            <a href="#" class="link__chat">
+              <span class="menu__text--chat">Let's Chat</span>
+            </a> 
+          </li>
+
+        </ul>
+      </nav>
+
+  </header>
 
 
-    <main>
+    <div class="page__main">
 <!-- Section 1: Banner -->
-          <div class="banner__background--image"><br>
-                <input type="button" class="banner__button--blue" value="Metro Style" /><br>
-                <input type="button" class="banner__button--red" value="Quick on the feet" /><br>
-                <input type="button" class="banner__button--yellow" value="Metro Styling reinvented" /><br>
+          <div class="page__section page__section--banner">
+            <div class="banner__content">
+              <ol class="banner__flag">
+                  <li class="banner__flag--metro">Metro Style</li>
+                  <li class="banner__flag--quick">Quick on the feet</li>
+                  <li class="banner__flag--styling">Metro Styling reinvented</li>
+              </ol>
+            </div>  
           </div>
+      </div>
+          
 
 <!-- Section 2: Intro -->
-        <h2>
-          Hey folks! We are the <span class="banner__heading__text--blue">Metrolics</span> team.<br>
-          It sports a responsive layout with a mobile layout.theme.
-        </h2>
+          <section class="page__section page__section--intro">
+            <h1 class="intro">
+              Hey folks! We are the <em class="highlight">Metrolics</em> team.
+              It sports a responsive layout with a mobile layout.theme.
+            </h1>
+          </section>
+
+
+
 
 <!-- Section 3: Services -->        
-        <section>
-            <h3>Things That We Do</h3>
-            <p class="subtext--grey">Ask us what we can do for you</p>
-                  <li>
-                      <ol><img src="/" alt="light bulb"></ol>
-                      <ol><h4>Web Solutions</h4></ol>
-                      <ol><p class="article__text-grey">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulful their design needs. We are confident you will be pleased with the results.</p></ol>
-                  </li>
-                  <li>
-                    <ol><img src="/" alt="camera"></ol>
-                    <ol><h4>Web Solutions</h4></ol>
-                    <ol><p class="article__text-grey">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulful their design needs. We are confident you will be pleased with the results.</p></ol>
-                </li>
-                <li>
-                  <ol><img src="/" alt="click"></ol>
-                  <ol><h4>Web Solutions</h4></ol>
-                  <ol><p class="article__text-grey">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulful their design needs. We are confident you will be pleased with the results.</p></ol>
-              </li>
-              <li>
-                <ol><img src="/" alt="writing"></ol>
-                <ol><h4>Web Solutions</h4></ol>
-                <ol><p class="article__text-grey">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulful their design needs. We are confident you will be pleased with the results.</p></ol>
-            </li>
+        <section class="page__section page__section--services">
+          <header class="section__header section__header--services">
+            <h2 class="section__header__title">Things That We Do</h2>
+            <h5 class="section__header__subheader">Ask us what we can do for you</h5></header>
+
+            <div class="service__grid">
+              <div class="service__card">
+                <img src="/" alt="Service icon image 1" class="service__icon service__icon--lightbulb">
+                <h3 class="service__title">Web Solutions</h3>
+                <p class="service__text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulful their design needs. We are confident you will be pleased with the results.</p>
+              </div>
+
+              <div class="service__card">
+                <img src="/" alt="Service icon image 2" class="service__icon service__icon--camera">
+                <h3 class="service__title">Web Solutions</h3>
+                <p class="service__text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulful their design needs. We are confident you will be pleased with the results.</p>
+              </div>
+
+              <div class="service__card">
+                <img src="/" alt="Service icon image 3" class="service__icon service__icon--click">
+                <h3 class="service__title">Web Solutions</h3>
+                <p class="service__text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulful their design needs. We are confident you will be pleased with the results.</p>
+              </div>
+
+              <div class="service__card">
+                <img src="/" alt="Service icon image 1" class="service__icon service__icon--writing">
+                <h3 class="service__title">Web Solutions</h3>
+                <p class="service__text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulful their design needs. We are confident you will be pleased with the results.</p>
+              </div>
+
+            </div>
         </section>  
+        
 
 <!-- Section 4: Latest News -->  
-        <section>
-          <h3>What's Up Lately?</h3>
-          <p class="subtext--grey">Read up on our latest work</p>
-          <article>
-              <a>
-                  <div class="news-article__date">
-                    <p>29</p>
-                    <p>Jan 2025</p>
-                  </div>
-                  <div>
-                    <p>Sample Image Post</p>
-                    <p>Photography</p>
-                  </div>
 
-                  <div class="news-article__date">
-                    <p>29</p>
-                    <p>Jan 2025</p>
-                  </div>
-                  <div>
-                    <p>Sample Image Post</p>
-                    <p>Photography</p>
-                  </div>
+        <section class="page__section page__section--whatsup">
+          <header class="section__header section__header--whatsup">
+            <h2 class="section__header__title">What's Up Lately?</h2>
+            <h5 class="section__header__subheader">Read up on our latest work</h5>
+          </header>
 
-                  <div class="news-article__date">
-                    <p>29</p>
-                    <p>Jan 2025</p>
-                  </div>
-                  <div>
-                    <p>Sample Image Post</p>
-                    <p>Photography</p>
-                  </div>
-              </a>
-          </article>
+          <div class="blog__grid">
+            <article class="blog__card">
+
+          <header class="blog__header">
+            <h3 class="blog__header__title">Sample Image Post</h3>
+            <p class="blog__header__subheader">Photography</p>
+            <img src="/" alt="Blog icon" class="icon">
+          </header> 
+
+          <div class="blog__image">
+            <img src="/" class="blog__icon" alt="Blog background image">
+            <div class="blog__date">
+                <span class="blog__date--dd">29</span>
+                <span class="blog__date--mmyy">Jan. 2025</span>
+            </div>
+          </div>
+            </article>
+
+            <article class="blog__card">
+              <header class="blog__header">
+                <h3 class="blog__header__title">Sample Image Post</h3>
+                <p class="blog__header__subheader">Photography</p>
+                <img src="/" alt="Blog icon" class="icon">
+              </header> 
+    
+              <div class="blog__image">
+                <img src="/" class="blog__icon" alt="Blog background image">
+                <div class="blog__date">
+                    <span class="blog__date--dd">29</span>
+                    <span class="blog__date--mmyy">Jan. 2025</span>
+                </div>
+              </div>
+                </article>
+
+            <article class="blog__card">
+                <header class="blog__header">
+                  <h3 class="blog__header__title">Sample Image Post</h3>
+                  <p class="blog__header__subheader">Photography</p>
+                  <img src="/" alt="Blog icon" class="icon">
+                  </header> 
+        
+              <div class="blog__image">
+                <img src="/" class="blog__icon" alt="Blog background image">
+                <div class="blog__date">
+                    <span class="blog__date--dd">29</span>
+                    <span class="blog__date--mmyy">Jan. 2025</span>
+                </div>
+              </div>
+            </article>    
         </section>
 
 <!-- Section 5: Portfolio carousel -->  
-        <section>
-              <h3>Our Best Work. Period.</h3>
-              <p class="subtext--grey">Client happy? We are happy.</p>
-              <div>
-              <img src="/" alt="work1"> <img src="/" alt="work2"> <img src="/" alt="work3"> <br>
-              <img src="/"  alt="work4">         <img src="/"  alt="work5">         <img src="/"  alt="work6"><br>
-              </div>
-        </section>
+<section class="page__section page__section--portfolio">
+  <header class="section__header section__header--portfolio">
+    <h2 class="section__header__title">Our Best Work. Period.</h2>
+    <h5 class="section__header__subheader">Client happy? We are happy.</h5>
+  </header>
+
+  <div class="portfolio__grid">
+      <div class="portfolio__item">
+        <img src="/" alt="portfolio image" class="portfolio__img">
+      </div>
+     <div class="portfolio__item">
+        <img src="/" alt="portfolio image" class="portfolio__img">
+      </div>
+      <div class="portfolio__item">
+        <img src="/" alt="portfolio image" class="portfolio__img">
+      </div>
+      <div class="portfolio__item">
+        <img src="/" alt="portfolio image" class="portfolio__img">
+    </div>
+    <div class="portfolio__item">
+      <img src="/" alt="portfolio image" class="portfolio__img">
+    </div>
+    <div class="portfolio__item">
+      <img src="/" alt="portfolio image" class="portfolio__img">
+    </div>
+  </div>
+</section>
+
 
 <!-- Section 6: Clients -->  
-        <section>
-          <h3>Satisfaction Guaranteed</h3>
-          <p class="subtext--grey">Past clients stoked with our work. We are not happy until YOU are happy.</p>
-          <div>
-          <img src="/" alt="KRITA">         <img src="/" alt="INKSCAPE">         <img src="/" alt="GODOT">         <img src="/" alt="blender">         <img src="/" alt="penpot">
-          </div>
-    </section>
-    </main>
+<section class="page__section page__section--clients">
+  <header class="section__header section__header--clients">
+    <h2 class="section__header__title">Satisfaction Guaranteed</h2>
+    <h5 class="section__header__subtitle">Past clients stoked with our work. We are happy until YOU are happy.</h5>
+  </header>
+
+  <div class="clients__grid">
+
+    <div class="client__logo">
+      <img src="/" alt="Krita logo" class="client__logo--krita">
+    </div>
+
+    <div class="client__logo">
+      <img src="/" alt="Inkscape logo" class="client__logo--inkscape">
+    </div>
+
+    <div class="client__logo">
+      <img src="/" alt="Godot logo" class="client__logo--godot">
+    </div>
+
+    <div class="client__logo">
+      <img src="/" alt="Blender logo" class="client__logo--blender">
+    </div>
+
+    <div class="client__logo">
+      <img src="/" alt="Penpot logo" class="client__logo--penpot">
+    </div>
+
+  </div>
+</section>
 
 <!-- Section 7: Footer -->  
-    <hr>
-    <footer>
-      <!-- Section 7.1: About Alf -->  
-        <figure>
-            <img src="/" alt="Alf Profile">
-            <figcaption>Alf has over 10 years experience in the industry. He is our Creative Director, digital designer, web designer and front-end developer. He is also pretty good with a sketchbook. Before starting the company Peewee worked as a designer and studio manager for a design house who boasted a number of big name clients</figcaption>
-        </figure>
-        <hr>
+<footer class="page__footer">
+  <div class="footer__content">
+    <div class="footer__author">
+      <img src="/" alt="Profile picture" class="footer__author--image">
+      <p class="footer__author--text">Alf has over 10 years experience in the industry. He is our Creative Director, digital designer, web designer and front-end developer. He is also pretty good with a sketchbook. Before starting the company Peewee worked as a designer and studio manager for a design house who boasted a number of big name clients.</p>
+      <hr class="footer__author--divider">
+    </div>
+
+
 
       <!-- Section 7.2: About Us -->         
-        <div>
-        <h5 id="footer__h5--yellow">About Us</h5>
-        <p class="footer__text">Minions insum notatondo ontatoone wuuhhh. Ghasy ooulet Mikka masala Mill willi hahaha do kass tulaliloo potatonoo. Bee do bee do bee do chasy i aamoo. Po kass
-          daa bee do bee do bee do po kass will
-          butt chasy.</p>
-        
-        <p class="footer__text">Pepete uuuhhh hahaha gelatooo belloo! Bananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee.</p>
-        </div>  
+    <div class="footer__grid">
+        <div class="footer__row">
+          <section class="footer__col footer__col--about">
+            <h3 class="footer__heading footer__heading--about">About Us</h3>
+            <p class="footer__description">
+              Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt chasy. 
+              Pepete uuuhhh hahaha gelatooo belloo! Bananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee. 
+            </p>
+          </section>
 
       <!-- Section 7.3: Instagram -->           
-        <div>
-          <h5 id="footer__h5--red">Instagram</h5>
-          <img src="/">         <img src="/">         <img src="/"><br>
-          <img src="/">         <img src="/">         <img src="/"><br>
-          <img src="/">         <img src="/">
+      <section class="footer__col footer__col--instagram">
+        <h3 class="footer__heading footer__heading--instagram">Instagram</h3>
+        <div class="instagram__post--grid">
+          <img src="/" alt="Instagram Post 1" class="instagram__post">
+          <img src="/" alt="Instagram Post 2" class="instagram__post">
+          <img src="/" alt="Instagram Post 3" class="instagram__post">
+          <img src="/" alt="Instagram Post 4" class="instagram__post">
+          <img src="/" alt="Instagram Post 5" class="instagram__post">
+          <img src="/" alt="Instagram Post 6" class="instagram__post">
+          <img src="/" alt="Instagram Post 7" class="instagram__post">
+          <img src="/" alt="Instagram Post 8" class="instagram__post">
         </div>
+      </section>
 
       <!-- Section 7.4: What's New on Mastodon -->   
-        <div>
-          <h5 id="footer__h5--blue">What's New on Mastodon</h5>
-          <p class="footer__text">@Minions insum notatondo ontatoone wuuhhh. Ghasy ooulet Mikka masala Mill willi hahaha do kass tulaliloo potatonoo. Bee do bee do bee do chasy i aamoo. Po kass
-            daa bee do bee do bee do po kass will
-            butt chasy. Pepete uuuhhh hahaha gelatooo belloo! Bananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee.</p> 
-
-          <p class="footer__text">@Minions insum notatondo ontatoone wuuhhh. Ghasy ooulet Mikka masala Mill willi hahaha do kass tulaliloo potatonoo. Bee do bee do bee do chasy i aamoo. Po kass daa bee do bee do bee do po kass will
-          butt chasy. Pepete uuuhhh hahaha gelatooo belloo! Bananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee.</p>
-
-          <p class="footer__text">@Minions insum notatondo ontatoone wuuhhh. Ghasy ooulet Mikka masala Mill willi hahaha do kass tulaliloo potatonoo. Bee do bee do bee do chasy i aamoo. Po kass daa bee do bee do bee do po kass will
-          butt chasy. Pepete uuuhhh hahaha gelatooo belloo! Bananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee.</p>
-          </div>
+      <section class="footer__col footer__col--mastodon">
+        <h3 class="footer__heading footer__heading--mastodon">What's New on Mastodon</h3>
+        <div class="mastodon__post">
+          <div class="mastodon__post--item">@Minions - ipsum banana potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa b ee do bee do bee do po kass wiiiii butt chasy. Pepete uuuhhh hahaha gelatooo belloo! ananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee. </div>
+          <div class="mastodon__post--item">@Minions - ipsum banana potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa b ee do bee do bee do po kass wiiiii butt chasy. Pepete uuuhhh hahaha gelatooo belloo! ananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee. </div>
+          <div class="mastodon__post--item">@Minions - ipsum banana potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa b ee do bee do bee do po kass wiiiii butt chasy. Pepete uuuhhh hahaha gelatooo belloo! ananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee. </div>
+        </div>
+      </section>
           
       <!-- Section 7.5: Track us! -->             
-        <div>
-          <h5 id="footer__h5--white">Track us!</h5>
-          <img src="/"> <img src="/"> <img src="/"> <img src="/"><br>
-          <img src="/"><br>
-          <input name="email" id="form__input--red" type="email" placeholder="Enter your Email..."/><button class="form__button--yellow">Send</button>
+      <section class="footer__col footer__col--trackus">
+        <h3 class="footer__heading footer__heading--trackus">Track us!</h3>
+
+        <div class="socialmedia__links">
+          <a href="#" class="socialmedia__icon">
+            <img src="/" alt="Facebook" class="socialmedia__icon--facebook">
+          </a>
+
+          <a href="#" class="socialmedia__icon">
+            <img src="/" alt="Google" class="socialmedia__icon--google">
+          </a>
+
+          <a href="#" class="socialmedia__icon">
+            <img src="/" alt="Twitter" class="socialmedia__icon--twitter">
+          </a>
+
+          <a href="#" class="socialmedia__icon">
+            <img src="/" alt="Dribble" class="socialmedia__icon--dribble">
+          </a>
+
+          <a href="#" class="socialmedia__icon">
+            <img src="/" alt="LinkedIn" class="socialmedia__icon--linkedin">
+          </a>
+
+          <form class="newsletter-form" id="newsletterForm" aria-label="Newsletter signup">
+            <label for="email" class="visually-hidden">Enter your email</label>
+            <input type="email" class="newsletter-input" placeholder="Enter your Email..." required>
+            <button type="submit" class="newsletter-button" aria-label="Subscribe"><img src="/" alt="Sending email icon" class="send--email"></button>
+          </form>
+          
+        </section>
+
         </div>
     </footer>
   
-    <hr>
 
   <script src="js/app.js"></script>
 
